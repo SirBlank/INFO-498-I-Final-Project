@@ -1,2 +1,3 @@
 # INFO-498-I-Final-Project
-AI
+
+This is the technical component of our INFO 498 I final project.
