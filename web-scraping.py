@@ -78,7 +78,7 @@ all_dataframes = []
 i = 0
 
 while True:  
-    url = f"https://scholar.google.com/scholar?start={i}&hl=en&as_sdt=0%2C48&q=%22As+of+my+last+knowledge+update%22+-%22GPT%22&oq="
+    url = f"https://scholar.google.com/scholar?start={i}&hl=en&as_sdt=0%2C48&q=%22As+of+my+last+knowledge+update%22+-%22ChatGPT%22&oq="
     doc = get_paperinfo(url)
     paper_tag, _, _, _ = get_tags(doc)
     if not paper_tag:
