@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-csv_all_time = 'C:/Users/magui/Downloads/as_of_my_last_knowledge_update_full_missing_summary.csv'
-csv_before_2022 = 'C:/Users/magui/Downloads/as_of_my_last_knowledge_update_before_2022.csv'
-csv_after_2022 = 'C:/Users/magui/Downloads/as_of_my_last_knowledge_update_after_2022.csv'
+csv_all_time = 'C:/Users/magui/Downloads/my_last_training_cut-off_full.csv'
+csv_before_2022 = 'C:/Users/magui/Downloads/my_last_training_cut-off_before_2022.csv'
+csv_after_2022 = 'C:/Users/magui/Downloads/my_last_training_cut-off_after_2022.csv'
 
 # Convert to dataframes
 df_all_time = pd.read_csv(csv_all_time)
@@ -49,7 +49,7 @@ ax[2].bar(summary_df['Timeframe'], summary_df['Average Citations per Publication
 ax[2].set_title('Average Citations per Publication')
 ax[2].set_ylabel('Average Citations')
 
-fig.suptitle('"As of My Last Knowledge Update" Data from Google Scholar', fontsize=16)
+fig.suptitle('"As of my Last Training Cut-Off" Data from Google Scholar', fontsize=16)
 
 # Table Creation
 fig, ax_table = plt.subplots(figsize=(10, 4))
