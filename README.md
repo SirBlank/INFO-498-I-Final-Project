@@ -30,10 +30,10 @@ The **data** folder contains all the cleaned data we have scraped and used for a
 | Citation             | Number of times other publications have cited this article                                                         |
 | Url of paper         | URL of the paper                                                                                                   |
 | Summary              | Snippet of text that contained the formatted ChatGPT response                                                      |
-| Field of Study       | The academic field to which the paper belongs (Arts, Humanities, Social Sciences, Natural Sciences, Applied Sciences) |
-| Location of Keyword  | Section of the paper where the keyword is found (Abstract, Introduction, Literature Review, Methodology, Result, Discussion, Conclusion)  |
-| Type of Article      | The type of publication (Book, Research)                                                                           |
-| Removed              | Whether the keyword has been removed from the most recent version of the article (Y for Yes, N for No)             |
+| Field of Study       | The academic field to which the paper belongs (Arts, Humanities, Social Sciences, Natural Sciences, Applied Sciences), NA if the article cannot be accessed |
+| Location of Keyword  | Section of the paper where the keyword is found (Abstract, Introduction, Literature Review, Methodology, Result, Discussion, Conclusion), NA if the article cannot be accessed  |
+| Type of Article      | The type of publication (Book, Research), NA if the article cannot be accessed                                                                           |
+| Removed              | Whether the keyword has been removed from the most recent version of the article (Y for Yes, N for No), NA if the article cannot be accessed             |
 | Notes                | Any interesting observations made while manually labeling these data                                               |
 
 ## data_analytics.py and data_analytics2.py
