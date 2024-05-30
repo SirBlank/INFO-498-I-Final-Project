@@ -15,7 +15,7 @@ This is the technical component of our INFO 498-I final project.
 
 **Note:** The script may take a long time to complete depending on the number of search results you want to scrape, so please be patient.
 
-**Another Note:** The script might not run consistently if you attempt to scrape more than 200 articles in a single run, as Google tends to block queries with a large number of requests. If you need to scrape more than 200 articles, run the script multiple times with different 'i' values each time.
+**Another Note:** The script may not run consistently if you attempt to scrape more than 200 articles in a single run, as Google tends to block queries with a large number of requests.
 
 ## data
 The **data** folder contains all the cleaned data we have scraped and used for analysis in this project.
