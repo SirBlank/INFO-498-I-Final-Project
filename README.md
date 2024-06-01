@@ -36,5 +36,5 @@ The **data** folder contains all the cleaned data we have scraped and used for a
 | Removed              | Whether the keyword has been removed from the most recent version of the article (Y for Yes, N for No), NA if the article cannot be accessed             |
 | Notes                | Any interesting observations made while manually labeling these data                                               |
 
-## data_analytics.py and data_analytics2.py
-These scripts contain the data analysis and visualizations used to generate the visualizations in our final report.
+## finalanalysis.py
+This script contains the data analysis and visualizations used to generate the visualizations in our final report.
